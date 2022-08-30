@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="first()">1</button>
+    <p>1 случай: а вернулся после превращения(а увеличили на 1=2)</p>
+    <p>2 случай: b вернулся до превращения</p>
+    <p>3 случай: а вернулся после превращения, учитывая прошлое превращение и увеличили на 2 (2+1+2=5)</p>
+    <p>4 случай: b вернулся до превращения, учитывая прошлое превращение и увеличили на 2(2+2=4)</p>
+    <p>значение а и b после всерх превращений равны 3 т.к. а и b увеличили 2 раза на 1</p>
+    <button onclick="second()">2</button>
+    <p>значение х будет равно 5 т.к. а равен 2 и это число умножили на 2 и прибавили 1</p>
+    <script src="./main.js"></script>
+    <button  style="margin: 5px;"onclick="third()">3</button><br>
+    <button style="margin: 5px;"  onclick="fourth()" >4</button><br>
+<div style="margin: 5px;">
+    <button style="margin: 1px;" onclick="fifthPlus()">+</button>
+    <button style="margin: 1px;" onclick="fifthMinus()">-</button>
+    <button style="margin: 1px;" onclick="fifthMultiply()">*</button>
+    <button style="margin: 1px;" onclick="fifthDivide()">%</button><br>
+</div>
+    <button style="margin: 5px;" onclick="mathOperation()">6</button>
+<p>null возвращает пустое значение в отличии от 0, равенство null "<= >= =" возвращают true т.к. мы сравниваем пустоту со значением нуля(тоже ничего)</p>
+<button style="margin: 5px;" onclick="callBack()">7</button>
+
+
+
+</body>
+</html>
