@@ -28,14 +28,16 @@ console.log(cart);
 cart.forEach((item) =>
   document.body.insertAdjacentHTML(
     "beforeend",
-    `<div style="margin: 5px" >
+    `<div id="${item.id}"style="margin: 5px" >
     ${item.name}: ${item.price} <button onclick="addToCart()">добавить</button>
     </div>`
   )
 );
 function addToCart() {
-  cart.forEach((item) => {
-    item = this.item;
-    console.log(item);
-  });
+  cart.forEach((item) => document.getElementById(item.id));
+  let prices = Number;
+  for (let i = 0; i < cart.length; i++) {
+    prices += cart[i].price;
+  }
+  console.log(prices);
 }
