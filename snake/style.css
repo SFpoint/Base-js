@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.game-wrap{margin: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.game-wrap table {
+    background-color: aliceblue;
+}
+
+.menuButton {
+    padding:  15px;
+    background-color: green;
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+}
+.cell{
+    width: 25px;
+    height: 25px;
+}
+.snakeBody {
+background-color: blueviolet;
+
+}
+.snakeHead{
+    background-color: red;
+
+}
+
+.food{
+    background-color: green;
+}
